@@ -1,0 +1,9 @@
+numpy
+pydot
+tqdm
+opencv-python
+scikit-image
+plotly
+Pillow
+pandas
+kaleido
