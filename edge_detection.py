@@ -362,7 +362,7 @@ def pbp_edge_detection(img_path="examples/im-seg/primitives.png", **kwargs):
         ranks_cut_off = degs.copy()
         ranks_cut_off[cut_indices] = 0
         print("[INFO] cut degs by {} of {} = {} -> {}".format(
-            kwargs["p"], max_r, cut_off_p, np.unique(ranks_cut_off)))
+            kwargs["p"], max_r, cut_off_p, np.unique(ranks_cut_off)[1:]))
 
         if not kwargs.get("fine", False):
             segment_mask = process_segments(ranks_cut_off, frame, patch_h, patch_w)
