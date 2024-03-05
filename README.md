@@ -20,4 +20,6 @@ The outputs are displayed in the notebook.
 
 The `args.json` contain varied arguments to show how the parameters affect the edge detection process.
 
+Adjust the parameters for each case in args.json according to your needs of run 
+
 

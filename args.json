@@ -1,4 +1,5 @@
 [
+    
     {
         "window_height": 3,
         "window_width": 3,
@@ -7,7 +8,18 @@
         "p": 0.6,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": 100,
+        "pixel_range": 80,
+        "fine": true,
+        "im_p": "examples/images/sam.png"
+    },{
+        "window_height": 3,
+        "window_width": 3,
+        "step_size_y": 1,
+        "step_size_x": 1,
+        "p": 0.6,
+        "rotation": true,
+        "gaussian": true,
+        "pixel_range": false,
         "fine": true,
         "im_p": "examples/images/lady.png"
     },
@@ -18,7 +30,7 @@
         "step_size_x": 1,
         "p": 0.9,
         "gaussian": true,
-        "pixel_range": 80,
+        "pixel_range": false,
         "rotation": false,
         "fine": true,
         "im_p": "examples/images/bjorke_1.png"
@@ -115,7 +127,19 @@
         "p": 0.6,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": 100,
+        "pixel_range": 70,
+        "fine": true,
+        "im_p": "examples/images/wiki-sample-edge.png"
+    },
+    {
+        "window_height": 3,
+        "window_width": 3,
+        "step_size_y": 1,
+        "step_size_x": 1,
+        "p": 0.6,
+        "rotation": true,
+        "gaussian": true,
+        "pixel_range": false,
         "fine": true,
         "im_p": "examples/images/wiki-sample-edge.png"
     },
@@ -127,7 +151,7 @@
         "p": 0.9,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": 100,
+        "pixel_range": false,
         "fine": true,
         "im_p": "examples/images/lady-noisy.png"
     },
@@ -139,7 +163,7 @@
         "p": 0.6,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": 100,
+        "pixel_range": 80,
         "fine": true,
         "im_p": "examples/images/sam.png"
     },
@@ -151,7 +175,7 @@
         "p": 0.6,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": 100,
+        "pixel_range": false,
         "fine": true,
         "im_p": "examples/images/camera-man.png"
     },
@@ -228,26 +252,14 @@
         "im_p": "examples/images/1.png"
     },
     {
-        "window_height": 4,
-        "window_width": 4,
-        "step_size_y": 1,
-        "step_size_x": 1,
-        "p": 0.8,
-        "rotation": true,
-        "gaussian": true,
-        "pixel_range": "kmeans",
-        "fine": true,
-        "im_p": "examples/images/fruit-new.png"
-    },
-    {
         "window_height": 5,
         "window_width": 5,
         "step_size_y": 1,
         "step_size_x": 1,
-        "p": 0.9,
+        "p": 0.7,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": 80,
+        "pixel_range": false,
         "fine": true,
         "im_p": "examples/images/flower.png"
     },
@@ -259,7 +271,7 @@
         "p": 0.6,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": "kmeans",
+        "pixel_range": false,
         "fine": true,
         "im_p": "examples/images/fruit.png"
     },
@@ -280,10 +292,46 @@
         "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
+        "p": 0.9,
+        "rotation": true,
+        "gaussian": true,
+        "pixel_range": false,
+        "fine": true,
+        "im_p": "examples/images/leaf.png"
+    },
+    {
+        "window_height": 4,
+        "window_width": 4,
+        "step_size_y": 1,
+        "step_size_x": 1,
+        "p": 0.9,
+        "rotation": true,
+        "gaussian": true,
+        "pixel_range": 80,
+        "fine": true,
+        "im_p": "examples/images/leaf.png"
+    },
+    {
+        "window_height": 4,
+        "window_width": 4,
+        "step_size_y": 1,
+        "step_size_x": 1,
         "p": 0.4,
         "rotation": true,
         "gaussian": true,
         "pixel_range": "kmeans",
+        "fine": true,
+        "im_p": "examples/images/zhangjin-yu2009.png"
+    },
+    {
+        "window_height": 4,
+        "window_width": 4,
+        "step_size_y": 1,
+        "step_size_x": 1,
+        "p": 0.4,
+        "rotation": true,
+        "gaussian": true,
+        "pixel_range": false,
         "fine": true,
         "im_p": "examples/images/zhangjin-yu2009.png"
     },
