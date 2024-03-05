@@ -20,5 +20,4 @@ The outputs are displayed in the notebook.
 
 The `args.json` contain varied arguments to show how the parameters affect the edge detection process.
 
-`python edge_detection.py`
 
