@@ -12,15 +12,11 @@ Create virtual environment and install dependences
 
 `pip install -r requirements.txt`
 
-Run image edge detection with example images in `examples/images` using the parameters defined in `args.json`.
+Open `example.ipynb` and run all cells.
 
-The outputs are displayed in `examples/pbp-edges` with the same name of the input image.
+Image edge detection is processed on example images in `examples/images` using the parameters defined in `args.json`.
 
-In the output directory, a similar name without the -pbp-mask appended shows the processing steps.
-
-Some examples have comparative edge masks in `examples/masks`
-
-The program is not yet optimised, therefore some instances process longer.
+The outputs are displayed in the notebook.
 
 The `args.json` contain varied arguments to show how the parameters affect the edge detection process.
 
