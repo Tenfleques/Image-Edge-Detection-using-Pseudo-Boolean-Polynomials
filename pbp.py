@@ -90,8 +90,8 @@ def create_pbp(c: np.array):
     return pBp
 
 
-def truncate_pBp(pBp, p):
-    truncated_pBp = pBp.loc[pBp['degree'] < p]
+def truncate_pBp(pBp, n, p):
+    truncated_pBp = pBp.loc[pBp['degree'] < n - p]
     return truncated_pBp 
     
 
@@ -105,3 +105,12 @@ if __name__ == "__main__":
 
     pBp = create_pbp(c)
     print(pBp)
+
+    trunc_pBp = truncate_pBp(pBp, c.shape[0], 1)
+    print(trunc_pBp)
+
+    trunc_pBp = truncate_pBp(pBp, c.shape[0], 2)
+    print(trunc_pBp)
+
+    trunc_pBp = truncate_pBp(pBp, c.shape[0], 3)
+    print(trunc_pBp)
