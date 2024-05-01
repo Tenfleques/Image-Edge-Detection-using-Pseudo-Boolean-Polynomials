@@ -95,20 +95,20 @@
         "im_p": "examples/images/bjorke_6.png"
     },
     {
-        "window_height": 5,
-        "window_width": 5,
+        "window_height": 4,
+        "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
         "p": 0.9,
         "gaussian": true,
-        "pixel_range": "kmeans",
-        "rotation": true,
+        "pixel_range": 130,
+        "rotation": false,
         "fine": true,
         "im_p": "examples/images/bjorke_7.png"
     },
     {
-        "window_height": 5,
-        "window_width": 5,
+        "window_height": 4,
+        "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
         "p": 0.9,
@@ -131,18 +131,6 @@
         "im_p": "examples/images/wiki-sample-edge.png"
     },
     {
-        "window_height": 5,
-        "window_width": 5,
-        "step_size_y": 1,
-        "step_size_x": 1,
-        "p": 0.9,
-        "rotation": false,
-        "gaussian": true,
-        "pixel_range": "kmeans",
-        "fine": true,
-        "im_p": "examples/images/wiki-sample-edge.png"
-    },
-    {
         "window_height": 3,
         "window_width": 3,
         "step_size_y": 1,
@@ -155,38 +143,26 @@
         "im_p": "examples/images/sam.png"
     },
     {
-        "window_height": 4,
-        "window_width": 4,
+        "window_height": 5,
+        "window_width": 5,
+        "step_size_y": 1,
+        "step_size_x": 1,
+        "p": 0.8,
+        "rotation": true,
+        "gaussian": true,
+        "pixel_range": 70,
+        "fine": true,
+        "im_p": "examples/images/camera-man.png"
+    },
+    {
+        "window_height": 3,
+        "window_width": 3,
         "step_size_y": 1,
         "step_size_x": 1,
         "p": 0.8,
         "rotation": false,
         "gaussian": true,
         "pixel_range": 80,
-        "fine": true,
-        "im_p": "examples/images/camera-man.png"
-    },
-    {
-        "window_height": 4,
-        "window_width": 4,
-        "step_size_y": 1,
-        "step_size_x": 1,
-        "p": 0.9,
-        "rotation": true,
-        "gaussian": true,
-        "pixel_range": 70,
-        "fine": true,
-        "im_p": "examples/images/prasath_multiscale_2020-grad-map.png"
-    },
-    {
-        "window_height": 4,
-        "window_width": 4,
-        "step_size_y": 1,
-        "step_size_x": 1,
-        "p": 0.6,
-        "rotation": false,
-        "gaussian": true,
-        "pixel_range": "kmeans",
         "fine": true,
         "im_p": "examples/images/prasath_multiscale_2020.png"
     },{
@@ -197,6 +173,7 @@
         "p": 0.8,
         "rotation": false,
         "gaussian": true,
+        "pixel_range": "kmeans",
         "fine": false,
         "im_p": "examples/images/prasath_multiscale_2020.png"
     },
@@ -256,7 +233,7 @@
         "p": 0.9,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": 70,
+        "pixel_range": 80,
         "fine": false,
         "im_p": "examples/images/flower.png"
     },
@@ -269,6 +246,17 @@
         "rotation": false,
         "gaussian": true,
         "pixel_range": "kmeans",
+        "fine": true,
+        "im_p": "examples/images/fruit.png"
+    },{
+        "window_height": 4,
+        "window_width": 4,
+        "step_size_y": 1,
+        "step_size_x": 1,
+        "p": 0.7,
+        "rotation": false,
+        "gaussian": true,
+        "pixel_range": 100,
         "fine": true,
         "im_p": "examples/images/fruit.png"
     },
