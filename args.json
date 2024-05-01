@@ -19,7 +19,7 @@
         "p": 0.6,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": 70,
         "fine": true,
         "im_p": "examples/images/lady.png"
     },
@@ -30,8 +30,7 @@
         "step_size_x": 1,
         "p": 0.9,
         "gaussian": true,
-        "pixel_range": false,
-        "rotation": false,
+        "rotation": true,
         "fine": true,
         "im_p": "examples/images/bjorke_1.png"
     },
@@ -72,20 +71,20 @@
         "im_p": "examples/images/bjorke_4.png"
     },
     {
-        "window_height": 5,
-        "window_width": 5,
+        "window_height": 3,
+        "window_width": 3,
         "step_size_y": 1,
         "step_size_x": 1,
         "p": 0.9,
         "gaussian": true,
-        "pixel_range": 80,
+        "pixel_range": 70,
         "rotation": false,
         "fine": true,
         "im_p": "examples/images/bjorke_5.png"
     },
     {
-        "window_height": 5,
-        "window_width": 5,
+        "window_height": 4,
+        "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
         "p": 0.9,
@@ -102,8 +101,8 @@
         "step_size_x": 1,
         "p": 0.9,
         "gaussian": true,
-        "pixel_range": 80,
-        "rotation": false,
+        "pixel_range": "kmeans",
+        "rotation": true,
         "fine": true,
         "im_p": "examples/images/bjorke_7.png"
     },
@@ -132,28 +131,16 @@
         "im_p": "examples/images/wiki-sample-edge.png"
     },
     {
-        "window_height": 3,
-        "window_width": 3,
-        "step_size_y": 1,
-        "step_size_x": 1,
-        "p": 0.6,
-        "rotation": true,
-        "gaussian": true,
-        "pixel_range": false,
-        "fine": true,
-        "im_p": "examples/images/wiki-sample-edge.png"
-    },
-    {
-        "window_height": 3,
-        "window_width": 3,
+        "window_height": 5,
+        "window_width": 5,
         "step_size_y": 1,
         "step_size_x": 1,
         "p": 0.9,
-        "rotation": true,
+        "rotation": false,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": "kmeans",
         "fine": true,
-        "im_p": "examples/images/lady-noisy.png"
+        "im_p": "examples/images/wiki-sample-edge.png"
     },
     {
         "window_height": 3,
@@ -168,14 +155,14 @@
         "im_p": "examples/images/sam.png"
     },
     {
-        "window_height": 3,
-        "window_width": 3,
+        "window_height": 4,
+        "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
-        "p": 0.6,
-        "rotation": true,
+        "p": 0.8,
+        "rotation": false,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": 80,
         "fine": true,
         "im_p": "examples/images/camera-man.png"
     },
@@ -184,10 +171,10 @@
         "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
-        "p": 0.4,
+        "p": 0.9,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": 70,
         "fine": true,
         "im_p": "examples/images/prasath_multiscale_2020-grad-map.png"
     },
@@ -196,11 +183,21 @@
         "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
-        "p": 0.4,
-        "rotation": true,
+        "p": 0.6,
+        "rotation": false,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": "kmeans",
         "fine": true,
+        "im_p": "examples/images/prasath_multiscale_2020.png"
+    },{
+        "window_height": 4,
+        "window_width": 4,
+        "step_size_y": 1,
+        "step_size_x": 1,
+        "p": 0.8,
+        "rotation": false,
+        "gaussian": true,
+        "fine": false,
         "im_p": "examples/images/prasath_multiscale_2020.png"
     },
     {
@@ -211,7 +208,7 @@
         "p": 0.4,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": "kmeans",
         "fine": true,
         "im_p": "examples/images/2.png"
     },
@@ -223,7 +220,7 @@
         "p": 0.4,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": "kmeans",
         "fine": true,
         "im_p": "examples/images/zhangjin-yu2009.png"
     },
@@ -235,7 +232,7 @@
         "p": 0.4,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": "kmeans",
         "fine": true,
         "im_p": "examples/images/zhangjin-yu2009-sobel.png"
     },
@@ -244,23 +241,23 @@
         "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
-        "p": 0.4,
-        "rotation": true,
+        "p": 0.6,
+        "rotation": false,
         "gaussian": true,
-        "pixel_range": false,
-        "fine": true,
+        "pixel_range": "kmeans",
+        "fine": false,
         "im_p": "examples/images/1.png"
     },
     {
-        "window_height": 5,
-        "window_width": 5,
+        "window_height": 4,
+        "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
-        "p": 0.7,
+        "p": 0.9,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": false,
-        "fine": true,
+        "pixel_range": 70,
+        "fine": false,
         "im_p": "examples/images/flower.png"
     },
     {
@@ -268,10 +265,10 @@
         "window_width": 4,
         "step_size_y": 1,
         "step_size_x": 1,
-        "p": 0.6,
-        "rotation": true,
+        "p": 0.7,
+        "rotation": false,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": "kmeans",
         "fine": true,
         "im_p": "examples/images/fruit.png"
     },
@@ -295,7 +292,7 @@
         "p": 0.9,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": "kmeans",
         "fine": true,
         "im_p": "examples/images/leaf.png"
     },
@@ -312,54 +309,6 @@
         "im_p": "examples/images/leaf.png"
     },
     {
-        "window_height": 4,
-        "window_width": 4,
-        "step_size_y": 1,
-        "step_size_x": 1,
-        "p": 0.4,
-        "rotation": true,
-        "gaussian": true,
-        "pixel_range": "kmeans",
-        "fine": true,
-        "im_p": "examples/images/zhangjin-yu2009.png"
-    },
-    {
-        "window_height": 4,
-        "window_width": 4,
-        "step_size_y": 1,
-        "step_size_x": 1,
-        "p": 0.4,
-        "rotation": true,
-        "gaussian": true,
-        "pixel_range": false,
-        "fine": true,
-        "im_p": "examples/images/zhangjin-yu2009.png"
-    },
-    {
-        "window_height": 4,
-        "window_width": 4,
-        "step_size_y": 1,
-        "step_size_x": 1,
-        "p": 0.4,
-        "rotation": true,
-        "gaussian": true,
-        "pixel_range": "kmeans",
-        "fine": true,
-        "im_p": "examples/images/zhangjin-yu2009-sobel.png"
-    },
-    {
-        "window_height": 3,
-        "window_width": 3,
-        "step_size_y": 1,
-        "step_size_x": 1,
-        "p": 0.7,
-        "rotation": false,
-        "gaussian": true,
-        "pixel_range": false,
-        "fine": true,
-        "im_p": "examples/images/hyena-pack.png"
-    },
-    {
         "window_height": 3,
         "window_width": 3,
         "step_size_y": 1,
@@ -367,7 +316,7 @@
         "p": 0.8,
         "rotation": true,
         "gaussian": true,
-        "pixel_range": false,
+        "pixel_range": "kmeans",
         "fine": true,
         "im_p": "examples/images/elephant.png"
     }
